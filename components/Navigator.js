@@ -1,3 +1,5 @@
+//All the screens will be visible in this component.
+
 import {  createAppContainer } from "react-navigation";
 import {createDrawerNavigator} from "react-navigation-drawer";
 import Announcement from "../screens/Announcement";

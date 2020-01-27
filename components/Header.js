@@ -1,3 +1,5 @@
+//Header is the navigation panel of the app.
+
 import React from "react";
 import { Header } from "react-native-elements";
 

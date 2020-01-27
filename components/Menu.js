@@ -1,3 +1,4 @@
+//Hamburger menu icon to control the toggling of side drawer
 import React from "react";
 import { Icon } from "react-native-elements";
 
