@@ -1,12 +1,22 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text,FlatList } from "react-native";
 import AppHeader from "../components/Header";
+import Post from "../components/Post";
+import { ScrollView } from "react-native-gesture-handler";
 
 const Announcement = props => {
   return (
     <View>
       <AppHeader navigation={props.navigation} title="Announcement" />
-      <Text>This is Announcement Screen</Text>
+      <ScrollView>
+        <Post/>
+        <Post/>
+        <Post/>
+        <Post/>
+        <Post/>
+        <Post/>
+        <Post/>
+      </ScrollView>
     </View>
   );
 };
